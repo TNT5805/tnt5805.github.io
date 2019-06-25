@@ -71,6 +71,14 @@
             }
             
         </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("ul.professional-interests").toggle();
+                });
+            });
+        </script>
     </head>
     
     <body>
@@ -100,6 +108,19 @@
                            <li>Biggie&#9825;</li>
                        </ul>
                    </section>
+                </div>
+            </main>
+            <main>
+                <div class="content">
+                    <header>Professional Interests</header>
+                    <section class="interest">
+                        <button>Use me to see professtional interests</button>
+                        <ul class="professtional-interst">
+                            <li>STEM</li>
+                            <li>Medical Field</li>
+                            <li>Music & Art</li>
+                        </ul>
+                    </section>
                 </div>
             </main>
         </div>
